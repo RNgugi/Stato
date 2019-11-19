@@ -3,7 +3,7 @@
     session_start();
     require 'includes/dbh.inc.php';
     
-    define('TITLE',"Edit Profile | KLiK");
+    define('TITLE',"Edit Profile | Stato");
     
     if(!isset($_SESSION['userId']))
     {
@@ -13,6 +13,7 @@
     
     include 'includes/HTML-head.php';  
 ?> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 

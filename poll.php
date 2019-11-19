@@ -3,7 +3,7 @@
     session_start();
     require 'includes/dbh.inc.php';
 
-    define('TITLE',"Poll | KLiK");
+    define('TITLE',"Poll | Stato");
     
     if(!isset($_SESSION['userId']))
     {
@@ -23,7 +23,7 @@
     
     include 'includes/HTML-head.php';
 ?> 
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     
     <body>
@@ -175,7 +175,7 @@
                             <br><br>
                             <a href="./poll-voters.php?poll=<?php echo $_GET['poll']; ?>" 
                                class="btn btn-secondary">View All Votes</a> 
-                            <a href="./poll-view.php" class="btn btn-secondary">View All Polls</a>
+                            <a href="./polls.php" class="btn btn-secondary">View All Polls</a>
                             
                             <?php
                                 }

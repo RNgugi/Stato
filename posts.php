@@ -3,7 +3,7 @@
     session_start();
     require 'includes/dbh.inc.php';
     
-    define('TITLE',"Forum | KLiK");
+    define('TITLE',"Forum | Stato");
     
     if(!isset($_SESSION['userId']))
     {
@@ -25,6 +25,7 @@
 ?> 
 
         <link href="css/forum-styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     
 <body>
@@ -233,7 +234,7 @@
                                     </div>
                                 </div>
                                 <span class="likes"><span class="span-post-no"></span> <span class="span-post-no"><a
-                                        href="">KLiK Forum</a></span></span>
+                                        href="">Stato Forum</a></span></span>
                             </div>';
                                             
                         $i++;

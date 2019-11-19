@@ -1,14 +1,15 @@
 <?php
 
     session_start();
-    define('TITLE',"Contact Us | KLiK");
+    define('TITLE',"Contact Us | Stato");
     
     include 'includes/HTML-head.php';
     include 'includes/email-server.php';
 ?>  
 
 	<link rel="stylesheet" type="text/css" href="css/contact-util.css">
-	<link rel="stylesheet" type="text/css" href="css/contact-main.css">
+    <link rel="stylesheet" type="text/css" href="css/contact-main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
     
 <body>
@@ -173,12 +174,12 @@
 
 					<div class="flex-col size2">
 						<span class="txt1 p-b-20">
-							About Us
+							About Stato
 						</span>
 
 						<span class="txt2">
-                                                    University Students stumbling onto new ambitions<br>
-                                                    NUST, Islamabad Pakistan
+                                                   By allumni in search of fellow allumni<br>
+                                                    To talk and grow together
 						</span>
 					</div>
 				</div>
@@ -188,7 +189,7 @@
 						<span class="lnr lnr-phone-handset"></span>
 					</div>
 
-					<div class="flex-col size2">
+					<!-- <div class="flex-col size2">
 						<span class="txt1 p-b-20">
 							Star Our Work
 						</span>
@@ -196,7 +197,7 @@
 						<span class="txt3">
 							github.com/msaad1999/KLiK--PHP-coded-Social-Media-Website
 						</span>
-					</div>
+					</div> -->
 				</div>
 
 				<div class="dis-flex size1 p-b-47">
@@ -210,7 +211,7 @@
 						</span>
 
 						<span class="txt3">
-							klik.official.website@gmail.com
+							support@stato.com
 						</span>
 					</div>
 				</div>

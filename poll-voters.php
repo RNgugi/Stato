@@ -2,7 +2,7 @@
 
     session_start();
     require 'includes/dbh.inc.php';
-    define('TITLE',"Votes | KLiK");
+    define('TITLE',"Votes | Stato");
     
     if(!isset($_SESSION['userId']))
     {
@@ -22,7 +22,7 @@
     
     include 'includes/HTML-head.php';   
 ?> 
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
@@ -52,7 +52,7 @@
 
                             if (!mysqli_stmt_prepare($stmt, $sql))
                             {
-                                header("Location: ../poll-view.php?error=sqlerror");
+                                header("Location: ../polls.php?error=sqlerror");
                                 exit();
                             }
                             else

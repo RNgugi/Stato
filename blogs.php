@@ -4,7 +4,7 @@
     session_start();
     require 'includes/dbh.inc.php';
     
-    define('TITLE',"Blogs | KLiK");
+    define('TITLE',"Blogs | Stato");
     
     if(!isset($_SESSION['userId']))
     {
@@ -17,6 +17,7 @@
 ?>  
 
         <link rel="stylesheet" type="text/css" href="css/list-page.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <body style="background: #f1f1f1">
@@ -28,8 +29,8 @@
       <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-purple rounded shadow-sm">
           <img class="mr-3" src="img/200.png" alt="" width="48" height="48">
         <div class="lh-100">
-          <h1 class="mb-0 text-white lh-100">KLiK Blogs</h1>
-          <small>The KLiK Hub</small>
+          <h1 class="mb-0 text-white lh-100">Stato Blogs</h1>
+          <small>The STato Hub</small>
         </div>
       </div>
 

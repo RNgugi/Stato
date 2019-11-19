@@ -11,18 +11,20 @@
                     <ul>
                         <li><a href="../index.php">Home</a></li><br>
                         <li><a href="../team.php">The Team</a></li><br>
-                        <li><a href="../forum.php">The KLiK Forum</a></li><br>
-                        <li><a href="../hub.php">The KLiK Hub</a></li><br>
+                        <li><a href="../forum.php">The Stato Forum</a></li><br>
+                        <li><a href="../hub.php">The STato Hub</a></li><br>
                     </ul>
                 </div>
                 <div class="col-sm-2">
-                    <h5>About us</h5>
-                    <ul>
+                    <h5>About Stato</h5>
+                    <!-- <ul>
                         <li><a href="klik_saad.php">Muhammad Saad</a></li>
                         <li><a href="klik_anas-imran.php">Anas Imran</a></li>
                         <li><a href="klik_anas-kamal.php">Anas Kamal</a></li>
                         <li><a href="klik_ubaid.php">Ubaid Asim</a></li>
-                    </ul>
+                    </ul> -->
+                    
+
                 </div>
                 <div class="col-sm-2">
                     <h5>Support</h5>

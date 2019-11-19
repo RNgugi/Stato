@@ -2,7 +2,7 @@
 
     session_start();
     
-    define('TITLE',"Create Poll | KLiK");
+    define('TITLE',"Create Poll | Stato");
     
     if(!isset($_SESSION['userId']))
     {
@@ -14,6 +14,7 @@
 ?>  
 
         <link rel="stylesheet" type="text/css" href="css/comp-creation.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
@@ -98,7 +99,7 @@
 					</div>
                                         
                                         <div class="text-center">
-                                        <br><br><a class="btn btn-light btn-lg btn-block" href="poll-view.php">
+                                        <br><br><a class="btn btn-light btn-lg btn-block" href="polls.php">
                                             View Polls</a>
                                         </div>
                                         

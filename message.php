@@ -3,7 +3,7 @@
     session_start();
     require 'includes/dbh.inc.php';
     
-    define('TITLE',"Inbox | KLiK");
+    define('TITLE',"Inbox | Stato");
     
     if(!isset($_SESSION['userId']))
     {
@@ -16,6 +16,7 @@
 
 
         <link href="css/inbox.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     
     <body>
@@ -31,7 +32,7 @@
                       <h2>Inbox</h2>
                     </div>
                   </div>
-                  <div class="inbox_chat">
+                  <div class="inbox_chat" style="padding-bottom:80px">
                       
                       <?php
                 
@@ -52,18 +53,19 @@
                             {
                         ?>
                       
-                      <a href='./message.php?id=<?php echo $row['idUsers']; ?>'><div class="chat_list ">
+                      <a href='./message.php?id=<?php echo $row['idUsers']; ?>'><div class="chat_list " >
                             <div class="chat_people">
                                 <div class="chat_img"> 
                                     <img class="chat_people_img" src="uploads/<?php echo $row['userImg'] ?>"> 
                                 </div>
-                              <div class="chat_ib">
+                              <div class="chat_ib" >
                                 <h5>
                                     <?php echo ucwords($row['uidUsers']) ?> 
-                                    <span class="chat_date">KLiK User</span>
+                                    <span class="chat_date">Stato User</span>
                                 </h5>
                                 <p>Click on the User to start chatting</p>
                               </div>
+
                             </div>
                           </div></a>
                       

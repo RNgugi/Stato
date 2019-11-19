@@ -3,26 +3,28 @@
 <footer id="myFooter" class="mt-5">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-2">
                     <h2 class="logo"><a href="index.php"><img src='img/200.png'></a></h2>
                 </div>
-                <div class="col-sm-2">
+                <div class="col-sm-3">
                     <h5>Get started</h5>
                     <ul>
                         <li><a href="index.php">Home</a></li>
                         <li><a href="team.php">The Team</a></li>
-                        <li><a href="forum.php">The KLiK Forum</a></li>
-                        <li><a href="hub.php">The KLiK Hub</a></li>
+                        <li><a href="forum.php">The Stato Forum</a></li>
+                        <li><a href="hub.php">The STato Hub</a></li>
                     </ul>
                 </div>
-                <div class="col-sm-2">
-                    <h5>About us</h5>
-                    <ul>
+                <div class="col-sm-3">
+                    <h5>About Stato</h5>
+                    <!-- <ul>
                         <li><a href="_klik creators/klik_saad.php">Muhammad Saad</a></li>
                         <li><a href="_klik creators/klik_anas-imran.php">Anas Imran</a></li>
                         <li><a href="_klik creators/klik_anas-kamal.php">Anas Kamal</a></li>
                         <li><a href="_klik creators/klik_ubaid.php">Ubaid Asim</a></li>
-                    </ul>
+                    </ul> -->
+                    Stato is a platform where allumni of State House Primary can 
+                    reunite, talk and do great things together.
                 </div>
                 <div class="col-sm-2">
                     <h5>Support</h5>
@@ -30,12 +32,12 @@
                         <li><a href="contact.php">Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-2">
                     <div class="social-networks">
-                        <a href="https://github.com/msaad1999/KLiK--PHP-coded-Social-Media-Website" 
-                           class="twitter"><i class="fa fa-github fa-2x"></i></a>
+                        <a href="index.php" 
+                           class="twitter"><i class="fa fa-home fa-2x"></i></a>
                     </div>
-                    <a class="btn btn-default" href="contact.php">Contact us</a>
+                    <a class="btn btn-default" href="contact.php">Contact Us</a>
                 </div>
             </div>
         </div>

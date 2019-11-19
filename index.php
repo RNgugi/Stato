@@ -3,7 +3,7 @@
 
     session_start();
     include_once 'includes/dbh.inc.php';
-    define('TITLE',"Dashboard| KLiK");
+    define('TITLE',"Dashboard| Stato");
 
     $companyName = "Franklin's Fine Dining";
     
@@ -22,6 +22,8 @@
 ?> 
         <link href="css/list-page.css" rel="stylesheet">
         <link href="css/loader.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
     </head>
     
     <body onload="pageLoad()">
@@ -74,7 +76,7 @@
                             </li>
                             <li class="nav-item">
                               <a class="nav-link" id="event-tab" data-toggle="tab" href="#event" role="tab" 
-                                 aria-controls="event" aria-selected="false">Recent Events</a>
+                                 aria-controls="event" aria-selected="false">Upcoming Events</a>
                             </li>
                         </ul>
 
@@ -346,18 +348,20 @@
 
                     <div class="col-sm-2">
 
-                        <div class="text-center p-3 mt-5">
-                            <a href="team.php" target="_blank">
+                        <!-- <div class="text-center p-3 mt-5">
+                            <a href="team.php" target="_blank" style="width:50%">
                                 <i class="creater-icon fa fa-users fa-5x" aria-hidden="true"></i>
                             </a>
-                            <p><br>THE CREATORS</p>
-                        </div>
+                            <p><br>THE CREATOR</p>
+                        </div> -->
+                        <div style="height:24.5%"> </div>
 
-                        <a href="forum.php" class="btn btn-warning btn-lg btn-block">KLiK Forum</a>
-                        <a href="hub.php" class="btn btn-secondary btn-lg btn-block">KLiK Hub</a>
+                        <a href="forum.php" class="btn btn-warning btn-lg btn-block">Stato Forum</a>
+                        <a href="hub.php" class="btn btn-secondary btn-lg btn-block">Stato Hub</a>
                         <br><br><br>
                         <a href="create-topic.php" class="btn btn-warning btn-lg btn-block">Create a Forum</a>
                         <a href="create-blog.php" class="btn btn-secondary btn-lg btn-block">Create a Blog</a>
+                        <a href="create-event.php" class="btn btn-warning btn-lg btn-block">Create an Event</a>
 
                     </div>
                 </div>
@@ -374,7 +378,7 @@
             var myVar;
 
             function pageLoad() {
-              myVar = setTimeout(showPage, 4000);
+              myVar = setTimeout(showPage, 2000);
             }
 
             function showPage() {

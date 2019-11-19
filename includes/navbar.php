@@ -15,11 +15,11 @@
                         <i class="fa fa-bar-chart fa-2x" aria-hidden="true"></i>
                     </a>
                 </li>
-                <li class="nav-item px-3">
+                <!-- <li class="nav-item px-3">
                     <a class="nav-link" href="https://github.com/msaad1999/KLiK--PHP-coded-Social-Media-Website">
                         <i class="fa fa-github fa-2x" aria-hidden="true"></i>
                     </a>
-                </li>
+                </li> -->
                 <li class="nav-item px-3">
                     <a class="nav-link" href="message.php">
                         <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>

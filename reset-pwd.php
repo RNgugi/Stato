@@ -3,7 +3,7 @@
     session_start();
     require 'includes/dbh.inc.php';
     
-    define('TITLE',"Reset Password | KLiK");
+    define('TITLE',"Reset Password | Stato");
     
     if(isset($_SESSION['userId']))
     {
@@ -14,7 +14,8 @@
     include 'includes/HTML-head.php';
 ?>  
 
-	<link rel="stylesheet" type="text/css" href="css/list-page.css">
+    <link rel="stylesheet" type="text/css" href="css/list-page.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     
     <body style="background: url('img/cover2.png');">

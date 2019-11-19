@@ -1,7 +1,7 @@
 <?php
 
     session_start();
-    define('TITLE',"KLiK"); 
+    define('TITLE',"Stato"); 
     
     function strip_bad_chars( $input ){
         $output = preg_replace( "/[^a-zA-Z0-9_-]/", "", $input);
@@ -16,6 +16,7 @@
     
     include 'includes/HTML-head.php';
 ?>  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     
     <body>
@@ -26,7 +27,7 @@
             <div class="container">
                 <div class="col-sm-10 offset-sm-1">
                     <img src='img/200.png'>
-                    <h5 class="text-white">Spreading Ideas</h5>
+                    <h5 class="text-white">Coming Together</h5>
                     <br>
                     <?php
                     

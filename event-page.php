@@ -2,7 +2,7 @@
 
     session_start();
     require 'includes/dbh.inc.php';
-    define('TITLE',"Event | KLiK");
+    define('TITLE',"Event | Stato");
     
     if(!isset($_SESSION['userId']))
     {
@@ -24,6 +24,7 @@
 ?> 
 
         <link href="css/flipclock.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     
     <body>
@@ -66,7 +67,7 @@
                             $date1 = date_create(date("Y-m-d"));
                             $date2 = date_create($row['event_date']);
 
-                            $diff=date_diff($date1,$date2, absolute);
+                            $diff=date_diff($date1,$date2, );
 
                             $diff_sec = $diff->format('%r').( 
                                             ($diff->s)+ 
